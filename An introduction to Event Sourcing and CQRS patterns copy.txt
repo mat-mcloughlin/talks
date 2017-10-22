@@ -1,0 +1,13 @@
+## An introduction to CQRS and Event Sourcing patterns
+
+Within the DDD domain there is often much discussion about the advantages these patterns bring and how they can be used in conjunction with each other. However there is not always great guidance on how to implement these patterns in a real world project. 
+
+There are many ways in which to build a system ustilising CQRS and event sourcing and in this talk I will attempt to take you through some of these methods to give you a “first working solution” that you can use as your starter for building your own CQRS/ES application.
+
+## Building a Proper Good Domain
+
+For years now, people have resorted back to building applications using the a-typical n-tier architecture. With service layers, repository layers and those god awful anemic business classes. 
+
+Although this is a completely valid way in which to build a simple application it instantly falls down when you try to build anything of moderate complexity. 
+
+In this talk I’ll discuss some of the methods of tactical domain driven design in a way to simplify your codebase and hopefully make it more simple to maintian in the future 
